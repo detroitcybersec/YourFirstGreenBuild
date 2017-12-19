@@ -5,4 +5,4 @@ deployment:
   push_to_server:
     branch: master
     commands:
-      - rsync -avz circleci@165.227.47.27:/home/circleci
+      - rsync -avz app/ circleci@165.227.47.27:/home/circleci
